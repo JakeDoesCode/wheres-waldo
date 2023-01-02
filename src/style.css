@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.photo {
+    height: 85vh;
+    width: 85vw;
+    background-image: url(/assets/style-heroes-style-jdm-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    cursor:url(/assets/custom-cursor.svg) 50 50,auto;
+}
